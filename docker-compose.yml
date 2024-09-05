@@ -40,7 +40,6 @@ services:
     - '80:80'
     depends_on:
     - web1
-    - web2
 networks:
   mynetwork:
 
