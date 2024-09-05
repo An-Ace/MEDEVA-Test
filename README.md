@@ -20,7 +20,7 @@ docker compose up
 npm install
 ```
 ```bash
-npm sequelize-cli db:migrate
+npx sequelize-cli db:migrate
 ```
 ```bash
 npx sequelize-cli db:seed:all
