@@ -27,19 +27,6 @@ services:
     networks:
       - mynetwork
     restart: unless-stopped
-  web1:
-    restart: on-failure
-    build: ./
-    hostname: https://www.ditopupin.com
-    ports:
-      - '81:5000'
-  nginx:
-    image: nginx
-    build: ./nginx
-    ports:
-    - '80:80'
-    depends_on:
-    - web1
 networks:
   mynetwork:
 
