@@ -7,7 +7,7 @@ A simple API using NodeJS, TypeScript, Express and Sequelize to connect to a Pos
 To view the full postman api on how I got here, check my [PostMan API](https://web.postman.co/workspace/Medeva~fb07327b-0c57-48e4-b0d6-2c7e54916ece).
 
 ## Live Server
-[Click Here](https://ditopupin.com).
+[Click Here](http://ditopupin.com).
 ## Installation
 
 Clone the repository
