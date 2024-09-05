@@ -43,6 +43,7 @@ npm start
 * [x] Create Seeder
 * [x] Create Migration
 * [x] Create Docker
+* [x] Implemented NGINX
 
 ### To Do
 * [ ] Create Test
