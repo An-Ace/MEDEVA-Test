@@ -29,7 +29,7 @@ services:
     restart: unless-stopped
   web1:
     restart: on-failure
-    build: ./web
+    build: ./dist
     hostname: https://www.mafiastore.com
     ports:
       - '81:5000'
