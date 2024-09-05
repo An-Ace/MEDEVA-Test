@@ -27,7 +27,20 @@ services:
     networks:
       - mynetwork
     restart: unless-stopped
-
+  web1:
+    restart: on-failure
+    build: ./web
+    hostname: https://www.mafiastore.com
+    ports:
+      - '81:5000'
+  nginx:
+    image: nginx
+    build: ./nginx
+    ports:
+    - '80:80'
+    depends_on:
+    - web1
+    - web2
 networks:
   mynetwork:
 
