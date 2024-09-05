@@ -29,8 +29,8 @@ services:
     restart: unless-stopped
   web1:
     restart: on-failure
-    build: ./dist
-    hostname: https://www.mafiastore.com
+    build: ./
+    hostname: https://www.ditopupin.com
     ports:
       - '81:5000'
   nginx:
